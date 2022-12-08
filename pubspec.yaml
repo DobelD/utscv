@@ -1,0 +1,36 @@
+name: utscv
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  hexcolor: 3.0.1
+  google_fonts: 3.0.1
+  iconsax: 0.0.8
+  ionicons: 0.2.1
+  iconly: 1.0.1
+  avatar_glow: 2.0.2
+  url_launcher: 6.1.7
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_launcher_icons: 0.11.0
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter: 
+  assets: 
+    - assets/images/
+  uses-material-design: true
+
